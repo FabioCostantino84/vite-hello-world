@@ -10,10 +10,12 @@
 
 <template>
 
-<img src="../assets/vue.svg" alt="">
+<img class="dimension" src="../assets/vue.svg" alt="">
 
 </template>
 
-<style>
-
+<style scoped>
+.dimension {
+  width: 200px;
+}
 </style>
